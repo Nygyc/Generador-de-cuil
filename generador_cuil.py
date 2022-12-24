@@ -13,13 +13,6 @@ print('*'* 20)
 print("GENERACION DE CUIL")
 print('*' * 20)
 
-#Variables
-edad = 0
-genero = 0
-prefijo = 0
-sufijo = 0
-m = 0
-f = 0
 
 #Ingresar datos
 nombre = input("Dime tu nombre: ")
@@ -44,7 +37,7 @@ producto = [x*y for x, y in zip(lista1, lista2)]
 suma = sum(producto)
 print(suma) #solo para chequear hay que borrarlo
 
-#Si es varon suma + 10
+#Sis varon suma + 10
 
 if m:
     resto = (suma + 10)
@@ -58,7 +51,7 @@ else:
 #Si el resto es uno, entonces el prefijo es 23, y el sufijo es 9 para varón y 4 para mujer.
     if resto == 1:
         prefijo = 23
-        print (prefijo) #solo para chequear hay que borrarlo
+        borrarl
         if genero:
             m
             sufijo = 9
